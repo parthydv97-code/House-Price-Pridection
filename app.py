@@ -16,3 +16,4 @@ X = pd.DataFrame(data['data'],
 final_X = X.iloc[:,:-2]
 scaler = StandardScaler()
 scaled_X = scaler.fit_transform(final_X)
+
